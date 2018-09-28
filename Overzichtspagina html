@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Transavia</title>
+    <link rel="stylesheet" href="Overzichtspagina.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="Overzichtspagina.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Transavia_logo.svg/1280px-Transavia_logo.svg.png" id="logo" alt="">
+            </a>
+
+            <img src="vergrootglas.png" id="icoon" alt="">
+
+            <a href="profiel.html">
+                <img src="profiel.png" id="iconen" alt="">
+            </a>
+        </nav>
+
+    </header>
+
+    <img src="Tekengebied%201.png" alt="europa">
+
+
+    <section>
+        <form action="transavia">
+            <select name="transavia" id="sorteer">
+              <option value="Nieuwe verhalen"> Nieuwe verhalen</option>
+              <option value="Populaire verhalen"> Populaire verhalen</option>
+              <option value="Vrolijke verhalen"> Vrolijke verhalen</option>
+              <option value="Actie verhalen">Actie verhalen</option>
+              <option value="Dromerige verhalen">Dromerige verhalen</option>
+              <option value="Spannende verhalen">Spannende verhalen</option>
+            </select>
+        </form>
+    </section>
+
+
+    <section id="new">
+        <h2>Nieuwe verhalen (4) </h2>
+        <div>
+            <a href="Verhaal.html">
+                <article>
+                    <img src="verliefd.jpeg" alt="verliefd">
+                    <h3>Verliefd</h3>
+                    <p>Een vliegtuigje vliegt door de wolken met super veel vaart...</p>
+                    <footer>
+                        <ul>
+                            <li>*</li>
+                            <li>**</li>
+                            <li>***</li>
+                            <li>****</li>
+                            <li>*****</li>
+                        </ul>
+
+                    </footer>
+                </article>
+            </a>
+
+
+            <a href="Verhaal.html">
+                <article>
+                    <img src="stoned.jpeg" alt="">
+                    <h3>Stoned</h3>
+                    <p>Een vliegtuigje vliegt door de wolken...</p>
+                    <footer>
+                        <ul>
+                            <li>*</li>
+                            <li>*</li>
+                            <li>*</li>
+                        </ul>
+                    </footer>
+                </article>
+            </a>
+
+            <a href="Verhaal.html">
+                <article>
+                    <img src="https://media.nu.nl/m/z4xxl77azpjz_wd640.jpeg" alt="">
+                    <h3>Vrolijk</h3>
+                    <p>Een vliegtuigje vliegt door de wolken...</p>
+                    <footer>
+                        <ul>
+                            <li>*</li>
+                            <li>*</li>
+                            <li>*</li>
+                            <li>*</li>
+                        </ul>
+                    </footer>
+                </article>
+            </a>
+        </div>
+
+        <button>Overzicht  > </button>
+
+    </section>
+
+
+
+    <section id="popular">
+        <h2>Populaire verhalen (12) </h2>
+
+        <div>
+            <a href="Verhaal.html">
+                <article>
+                    <img src="verliefd.jpeg" alt="verliefd">
+                    <h3>Verliefd</h3>
+                    <p>Een vliegtuigje vliegt door de wolken met super veel vaart...</p>
+                    <footer>
+                        <ul>
+                            <li>*</li>
+                            <li>**</li>
+                            <li>***</li>
+                            <li>****</li>
+                            <li>*****</li>
+                        </ul>
+
+                    </footer>
+                </article>
+            </a>
+
+
+            <a href="Verhaal.html">
+                <article>
+                    <img src="stoned.jpeg" alt="">
+                    <h3>Stoned</h3>
+                    <p>Een vliegtuigje vliegt door de wolken...</p>
+                    <footer>
+                        <ul>
+                            <li>*</li>
+                            <li>*</li>
+                            <li>*</li>
+                        </ul>
+                    </footer>
+                </article>
+            </a>
+
+            <a href="Verhaal.html">
+                <article>
+                    <img src="https://media.nu.nl/m/z4xxl77azpjz_wd640.jpeg" alt="">
+                    <h3>Vrolijk</h3>
+                    <p>Een vliegtuigje vliegt door de wolken...</p>
+                    <footer>
+                        <ul>
+                            <li>*</li>
+                            <li>*</li>
+                            <li>*</li>
+                            <li>*</li>
+                        </ul>
+                    </footer>
+                </article>
+            </a>
+        </div>
+
+
+
+        <button>Overzicht  > </button>
+
+    </section>
+</body>
+
+</html>
